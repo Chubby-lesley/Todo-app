@@ -1,0 +1,66 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+body{
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(12,12,125,1) 0%, rgba(0,212,255,1) 80%);
+
+}
+
+h1{
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 2.5rem;
+	font-weight: 700;
+	color: #3E54AC;
+}
+
+section{
+	margin: 100px auto;
+	width: 65%;
+	border: 0px solid;
+	padding: 20px;
+	background-color: #fff;
+}
+
+ul li{
+	font-family: 'ubuntu', sans-serif;
+	font-size: 0.85rem;
+	margin: 5px 10px;
+}
+
+li::marker {
+	content: "+ ";
+	color: #62CDFF ;
+}
+
+input{
+	font-family: "ubuntu", sans-serif;
+	margin-top: 20px;
+	padding: 7px;
+	width: 50%;
+}
+
+.todos p{
+	font-family: 'Ubuntu', sans-serif;;
+	padding: 7px;
+	border: 0px solid;
+	margin-top: 5px;
+	background-color: #f9f9f9;
+	width: 55.5%;
+}
+
+.checked{
+	text-decoration: line-through;
+}
+
+.todos:hover{
+	cursor: pointer;
+}
+
+#add-btn{
+	padding: 7px;
+}
